@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/bootstrap/bootstrap.js" defer></script>
+    <script src="js/jquery-3.6.4.slim.js" defer></script>
+    <script src="js/imagen.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <div class="card-header">
+                <h1>Registro de factura:</h1>
+            </div>
+
+            <div class="card-body">
+                <form id="headerForm">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 ">
+                            <label for="invoiceNumber" class="form-label">Numero de factura:</label>
+                            <input type="text" class="form-control" id="invoiceNumber" name="invoiceNumber">
+                        </div>
+                        <div class="col-sm-12 col-md-6 ">
+                            <label for="customerName" class="form-label">Nombre del cliente:</label>
+                            <input type="text" class="form-control" id="customerName" name="customerName">
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-12 col-md-6 ">
+                            <label for="nroCedula" class="form-label">Numero de Cedula:</label>
+                            <input type="nroCedula" class="form-control" id="nroCedula" name="nroCedula">
+                        </div>
+                        <div class="col-sm-12 col-md-6 ">
+                            <label for="fecha" class="form-label">Fecha:</label>
+                            <input type="date" class="form-control" id="fecha" name="fecha">
+                        </div>
+                    </div>
+                    <div class="botones mt-3">
+                        <button type="button" class="btn btn-danger" id="addHeader">Agregar Encabezado</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
